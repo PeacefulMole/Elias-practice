@@ -1,0 +1,88 @@
+html, body {
+  background-color: #282C33;
+  font-family: "Fira Code", sans-serif;
+}
+
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1060px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {}
+
+
+/* ---------------------------- */
+
+.header {}
+
+.header__top {}
+
+.header__top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px 8px;
+}
+
+.header__logo {
+  margin-right: 509px;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__nav-list {
+  display: flex;
+}
+
+.header__nav-item {
+  margin-left: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ABB2BF;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.header__nav-item:first-child {
+  margin-left: 0;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.header__nav-item:last-child {
+  font-weight: 600;
+}
+
+.header__nav-link {}
+
+.header__nav-lang{
+  position: relative;
+  padding-right: 4px;
+  width: 34px;
+}
+.header__nav-lang::before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+  display: block;
+  background: url("../images/down-arrow.svg") no-repeat;
+  width: 10px;
+  height: 7px;
+}
+
+.header__body {}
+
+.okto {
+  color: #C778DD;
+}
