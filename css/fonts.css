@@ -2,33 +2,33 @@
   font-family: "Fira Code";
   font-weight: 300;
   font-style: normal;
-  src: url("../fonts/fira-code/FiraCode-Light.woff") format("woff")
+  src: url(../fonts/fira-code/FiraCode-Light.woff) format("woff")
 }
 
 @font-face {
   font-family: "Fira Code";
   font-weight: 400;
   font-style: normal;
-  src: url("../fonts/fira-code/FiraCode-Regular.woff") format("woff")
+  src: url(../fonts/fira-code/FiraCode-Regular.woff) format("woff")
 }
 
 @font-face {
   font-family: "Fira Code";
   font-weight: 500;
   font-style: normal;
-  src: url("../fonts/fira-code/FiraCode-Medium.woff") format("woff")
+  src: url(../fonts/fira-code/FiraCode-Medium.woff) format("woff")
 }
 
 @font-face {
   font-family: "Fira Code";
   font-weight: 600;
   font-style: normal;
-  src: url("../fonts/fira-code/FiraCode-SemiBold.woff") format("woff")
+  src: url(../fonts/fira-code/FiraCode-SemiBold.woff) format("woff")
 }
 
 @font-face {
   font-family: "Fira Code";
   font-weight: 700;
   font-style: normal;
-  src: url("../fonts/fira-code/FiraCode-Bold.woff") format("woff")
+  src: url(../fonts/fira-code/FiraCode-Bold.woff) format("woff")
 }
