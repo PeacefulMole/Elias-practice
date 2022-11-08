@@ -35,7 +35,6 @@ html, body {
   color: #C778DD;
 }
 
-.logo {}
 
 
 /* ---------------------------- */
@@ -115,7 +114,6 @@ html, body {
   height: 7px;
 }
 
-.header__body {}
 
 
 /* ---------------------------- */
@@ -156,7 +154,6 @@ html, body {
   margin-bottom: 32px;
 }
 
-.button {}
 
 .header__img {
   z-index: 2;
