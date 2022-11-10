@@ -39,6 +39,11 @@ html, body {
 .white-link{
   color: #FFFFFF;
   font-weight: 600;
+  text-decoration: underline;
+  transition: text-decoration-color .3s;
+}
+.white-link:hover{
+  text-decoration: underline #C778DD;
 }
 
 
@@ -215,5 +220,6 @@ html, body {
   height: 21px;
   color: #ABB2BF;
 }
+
 
 .header__bottom {}
