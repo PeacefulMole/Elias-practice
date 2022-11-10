@@ -36,13 +36,14 @@ html, body {
   color: #C778DD;
 }
 
-.white-link{
+.white-link {
   color: #FFFFFF;
   font-weight: 600;
   text-decoration: underline;
   transition: text-decoration-color .3s;
 }
-.white-link:hover{
+
+.white-link:hover {
   text-decoration: underline #C778DD;
 }
 
@@ -195,7 +196,7 @@ html, body {
   top: 248px
 }
 
-.header__img-footer{
+.header__img-footer {
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -210,7 +211,7 @@ html, body {
 }
 
 
-.header__img-description{
+.header__img-description {
   font-weight: 500;
   line-height: 21px;
   font-size: 16px;
@@ -219,3 +220,8 @@ html, body {
   color: #ABB2BF;
 }
 
+.header__main-decor {
+  position: absolute;
+  left: 1284px;
+  top: 672px;
+}
