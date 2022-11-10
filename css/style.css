@@ -209,8 +209,6 @@ html, body {
   border: 1px solid #ABB2BF;
 }
 
-.header__img-squ{
-}
 
 .header__img-description{
   font-weight: 500;
@@ -221,5 +219,3 @@ html, body {
   color: #ABB2BF;
 }
 
-
-.header__bottom {}
