@@ -2,6 +2,7 @@ html,
 body {
   background-color: #282c33;
   font-family: "Fira Code", sans-serif;
+  position: relative;
 }
 .wrapper {
   max-width: 1027px;
@@ -14,7 +15,12 @@ body {
   align-items: flex-end;
   padding: 32px 0px 8px;
   white-space: nowrap;
-  margin-left: 49px;
+  margin-left: 48px;
+}
+@media (min-width: 1100px) {
+  .header {
+    margin-left: 0;
+  }
 }
 .nav-list {
   display: flex;
@@ -52,6 +58,7 @@ body {
 .aside-line {
   height: 191px;
   width: 2px;
+  margin-left: 1.5px;
 }
 .mediaic{
   transition: 0.3s;
@@ -59,3 +66,4 @@ body {
 .mediaic:hover{
   transform: scale(1.05);
 }
+
