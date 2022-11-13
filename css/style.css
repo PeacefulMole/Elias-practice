@@ -14,8 +14,9 @@ body {
   align-items: flex-end;
   padding: 32px 0px 8px;
   white-space: nowrap;
+  margin-left: 49px;
 }
-.nav-list{
+.nav-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,4 +37,25 @@ body {
 }
 .okto {
   color: #c778dd;
+}
+.media {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  width: 32px;
+  height: 311px;
+  margin-left: 17px;
+  gap: 8px;
+  align-items: center;
+}
+.aside-line {
+  height: 191px;
+  width: 2px;
+}
+.mediaic{
+  transition: 0.3s;
+}
+.mediaic:hover{
+  transform: scale(1.05);
 }
