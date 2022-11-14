@@ -60,10 +60,64 @@ body {
   width: 2px;
   margin-left: 1.5px;
 }
-.mediaic{
+.mediaic {
   transition: 0.3s;
 }
-.mediaic:hover{
+.mediaic:hover {
   transform: scale(1.05);
 }
-
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 62px;
+  max-height: 423px;
+}
+.topdesc {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #ffffff;
+  margin-bottom: 32px;
+  margin-top: 74px;
+}
+.purptext {
+  color: #c778dd;
+}
+.footdesc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #abb2bf;
+  margin-bottom: 32px;
+}
+.herobut {
+  padding: 8px 16px;
+  gap: 10px;
+  border: 1px solid #c778dd;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+.heror{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.herobox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+  border: 1px solid #abb2bf;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #abb2bf;
+  max-width: 402px;
+  margin-left: 31px;
+}
+.whitext{
+  color: #ffffff;
+}
